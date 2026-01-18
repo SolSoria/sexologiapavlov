@@ -1,0 +1,336 @@
+Landing Web – Terapeuta Sexual (Wellness moderno · 2026)
+
+Rol que debes asumir
+
+Eres un Senior Product Designer + Creative Director especializado en salud mental, sexología y wellness para nuevas generaciones, con experiencia en:
+	•	UX emocional
+	•	Marketing 2026 (trust-based, creator-led)
+	•	Servicios sensibles (sexualidad, trauma, diversidad)
+	•	Mobile-first conversion
+	•	Storytelling visual
+	•	Ética clínica (NO patologizar, NO diagnosticar en web)
+
+Tu misión es diseñar y generar una landing page de alta conversión, dinámica, visual y humana, que funcione como puerta emocional segura para personas que sienten vergüenza, miedo o confusión al hablar de sexualidad.
+
+⸻
+
+Objetivo del producto
+
+Convertir tráfico desde Instagram / Reels / TikTok / WhatsApp en:
+	1.	Agendamiento de sesiones vía Calendly
+	2.	Pagos confirmados (PayPal, DEUNA, transferencia)
+	3.	Mensajes de confianza por WhatsApp
+
+La web debe reducir:
+	•	vergüenza
+	•	miedo
+	•	duda (“¿funcionará?”)
+	•	fricción por precio
+	•	miedo al juicio
+
+⸻
+
+Perfil del profesional
+	•	Psicólogo y sexólogo
+	•	Especializado en diversidades, contención emocional y educación sexual
+	•	Enfoque humano, no trata al paciente como “cliente”
+	•	Experiencia personal con depresión y ansiedad (empatía real)
+	•	Atiende casos complejos: ansiedad, depresión, violencia sexual
+	•	NO ofrece servicios sexuales
+	•	Terapia breve (no años de tratamiento)
+
+📍 Presencial (Quito: Calderón / Colón / Hospital Baca Ortiz / Atahualpa)
+📍 Online (confidencial)
+
+⸻
+
+Audiencia
+	•	22–50 años
+	•	Personas con vergüenza o inseguridad sexual
+	•	Parejas con conflicto o desconexión
+	•	Personas LGBTQ+
+	•	Padres con dudas sobre educación sexual
+	•	Personas expuestas a pornografía temprana
+	•	Personas con miedo a “estar dañadas”
+
+⸻
+
+Principios obligatorios de diseño y marketing (2026)
+	•	Emotion-first UX
+	•	No diagnosticar en la web
+	•	Lenguaje humano, no clínico
+	•	Validar antes de explicar
+	•	Scroll dinámico
+	•	Uso intensivo de imágenes
+	•	Secciones cortas y respirables
+	•	Microcopy tranquilizador
+	•	WhatsApp como capa de conversión
+	•	Privacidad y ética visibles
+
+⸻
+
+ESTILO VISUAL (OBLIGATORIO)
+	•	Wellness moderno
+	•	Editorial / creator-style
+	•	Colores cálidos (rojo como acento, no agresivo)
+	•	Tipografías grandes
+	•	Mucho espacio en blanco
+	•	Ilustraciones humanas / abstractas
+	•	Fotos reales (no stock médico)
+	•	Micro-animaciones suaves (scroll reveal, fade-in)
+
+⸻
+
+ESTRUCTURA DE LA LANDING (OBLIGATORIA)
+
+⸻
+
+1. HERO – impacto emocional inmediato
+
+NO explicar servicios todavía.
+
+Headline (frase fuerte, corta):
+Ejemplos:
+	•	“No estás dañado.”
+	•	“La vergüenza no es un diagnóstico.”
+	•	“Hay cosas que nunca te dejaron decir.”
+
+Subheadline corto:
+
+Terapia sexual y educación sexual desde un enfoque humano, confidencial y respetuoso.
+
+CTAs visibles:
+	•	Agendar sesión
+	•	Hablar por WhatsApp
+
+📸 Imagen: persona real, mirada tranquila, luz natural, NO sexualizada.
+
+⸻
+
+2. BLOQUE DE IDENTIFICACIÓN EMOCIONAL
+
+Título:
+“Esto pasa más de lo que crees”
+
+Formato frases grandes + visuales:
+	•	“Hay personas que odian sus genitales.”
+	•	“Hay mujeres que no pueden expresarse ni en su propia casa.”
+	•	“Hay hombres humillados por su cuerpo incluso después de separarse.”
+	•	“Hay personas que creen tener una adicción cuando en realidad tienen miedo.”
+	•	“Hay parejas que se aman, pero no logran tocarse.”
+
+Microcopy:
+
+No estás solo/a. Y no tienes que saber cómo llamarlo.
+
+CTA suave.
+
+⸻
+
+3. SECCIÓN REDISEÑADA (INSPIRADA EN LA QUE LE GUSTA AL CLIENTE)
+
+⚠️ IMPORTANTE:
+NO usar “trastorno”, “disfunción”, ni clasificar por genitales.
+
+Título:
+“Motivos por los que muchas personas llegan a sexología”
+
+Subtítulo:
+
+No necesitas un diagnóstico para buscar acompañamiento.
+
+⸻
+
+Diseño en 2 bloques (NO por pene/vulva)
+🧠 Lo que pasa en tu mente y emociones
+	•	Vergüenza al hablar de sexualidad
+	•	Inseguridad con tu cuerpo o genitales
+	•	Culpa, tristeza o frustración
+	•	Miedo a decepcionar a tu pareja
+	•	Confusión sobre lo que te gusta o deseas
+
+🫀 Lo que pasa en tu cuerpo
+	•	Falta de deseo o cambios en el interés sexual
+	•	Dificultad para excitarse o mantener la respuesta
+	•	Dolor o incomodidad en el encuentro sexual
+	•	Dificultad para llegar al orgasmo
+	•	Tensión o bloqueo corporal
+
+📌 Nota ética:
+
+Estas experiencias no te definen. Se pueden entender y trabajar.
+
+CTA: Hablarlo en un espacio seguro
+
+⸻
+
+4. DESMITIFICACIÓN (reduce miedo)
+
+Título:
+“Qué NO pasa en terapia sexual”
+	•	No hay chequeos físicos
+	•	No hay juicios
+	•	No hay exposición forzada
+	•	No hay presión
+
+Qué SÍ pasa:
+	•	Conversación
+	•	Comprensión
+	•	Alivio inicial
+	•	Herramientas reales
+
+⸻
+
+5. PROCESO REAL DE TERAPIA
+
+Timeline visual simple:
+	1.	Historia clínica y sexual
+	2.	Contexto emocional y familiar
+	3.	Análisis del motivo de consulta
+	4.	Diagnóstico inicial (alivio)
+	5.	Acompañamiento progresivo
+
+Texto claro, humano, sin promesas mágicas.
+
+⸻
+
+6. SERVICIOS (ORDEN DE PRIORIDAD REAL)
+
+Cards limpias:
+	1.	Educación Sexual
+	•	Mitos, pornografía, prevención, padres, diversidad
+	2.	Diagnóstico y tratamiento de dificultades sexuales
+	•	Erección, eyaculación, orgasmo, dolor
+	3.	Terapia Sexual
+	•	Individual
+	•	Pareja
+	•	Grupal
+	4.	Identidad sexo-genérica
+	•	Diversidades
+	•	Orientación
+	•	Acompañamiento respetuoso
+
+CTA común: Ver disponibilidad
+
+⸻
+
+7. PRECIOS Y MODALIDAD (TRANSPARENCIA)
+	•	Terapia individual: $35 / 1 hora
+	•	Terapia de pareja: $70 / 2 horas
+
+Texto:
+
+La terapia no es un lujo. Es una forma de dejar de sufrir en silencio.
+
+Modalidad:
+	•	Presencial (Quito)
+	•	Online (confidencial)
+
+⸻
+
+8. ABOUT – autoridad sin rigidez
+
+Foto natural.
+
+Texto corto:
+
+Psicólogo y sexólogo.
+Trabajo desde la experiencia, la ciencia y el respeto.
+Aquí no se fuerza nada.
+
+Bullets:
+	•	Diversidades
+	•	Contención emocional
+	•	Educación sexual
+	•	Confidencialidad
+
+⸻
+
+9. AGENDA + PAGOS
+
+Diseño tipo checkout moderno.
+	•	Calendly embed
+	•	Métodos:
+	•	PayPal
+	•	DEUNA
+	•	Transferencia
+
+Microcopy:
+
+Tu espacio se confirma con el pago. Todo es confidencial.
+
+Política:
+	•	Pago hasta 1 día antes
+	•	Cancelación el mismo día: $8
+	•	Cancelación previa: sin multa
+
+⸻
+
+10. BLOG / NEWS
+
+Sección editable.
+
+Propósito:
+	•	Educar
+	•	Desmitificar
+	•	SEO
+	•	Confianza
+
+Temas iniciales sugeridos:
+	•	“No todo es adicción al sexo”
+	•	“Pornografía y distorsión corporal”
+	•	“Educación sexual sin perder la inocencia”
+	•	“Diversidad y recursos reales”
+	•	“Por qué el deseo no se obliga”
+
+⸻
+
+11. FAQ EXPRESS
+
+Formato acordeón corto:
+	•	“¿Y si me da vergüenza?”
+	•	“¿Online funciona?”
+	•	“¿Atiendes diversidad?”
+	•	“¿Esto tiene solución?”
+
+⸻
+
+12. FOOTER
+
+Minimal:
+	•	Instagram
+	•	WhatsApp
+	•	Quito / Online
+	•	Aviso de privacidad
+
+⸻
+
+TONO GENERAL
+	•	Humano
+	•	Seguro
+	•	No moralista
+	•	No explícito
+	•	No clínico
+	•	No sensacionalista
+
+⸻
+
+REGLA FINAL
+
+Esta web debe sentirse como:
+
+“Un lugar donde puedo respirar antes de hablar.”
+
+No como una clínica.
+No como un listado de problemas.
+No como un diagnóstico.
+
+⸻
+
+OUTPUT ESPERADO DE LOVABLE
+	•	Landing completa
+	•	Copy listo para publicar
+	•	Indicaciones visuales
+	•	Microcopy
+	•	UX coherente con redes
+	•	Preparada para Calendly + pagos
