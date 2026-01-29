@@ -1,0 +1,15 @@
+[build]
+  # This command builds your Vite project
+  command = "npm run build"
+  # This is the directory where Vite outputs the built files
+  publish = "dist"
+
+# Redirect all routes to index.html for SPA (Single Page Application)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Set environment variables
+[build.environment]
+  NODE_VERSION = "18"
