@@ -27,7 +27,7 @@ export default function Home() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.1] mb-6">
-                No estás <span className="text-primary italic">dañado</span>.
+                Tu intimidad no debería ser <span className="text-primary italic">confusa</span>.
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-lg">
                 Terapia sexual y educación desde un enfoque humano. Un espacio seguro para reconectar con tu placer, libre de juicios y culpas.
@@ -35,7 +35,9 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="#agendar"
+                  href="https://calendly.com/solsoria-2208/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-bold text-lg hover:bg-primary/90 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/25 flex items-center justify-center gap-2"
                 >
                   Agendar Sesión <ArrowRight size={20} />
@@ -60,7 +62,7 @@ export default function Home() {
               <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl">
                 {/* Hero image: Peaceful, natural light, non-clinical */}
                 <img 
-                  src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1289&auto=format&fit=crop" 
+                  src="https://images.pexels.com/photos/11598653/pexels-photo-11598653.jpeg?auto=compress&cs=tinysrgb&w=1280&h=1920&fit=crop" 
                   alt="Mujer tranquila disfrutando luz natural"
                   className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
                 />
@@ -87,6 +89,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ABOUT ME */}
+      <section className="py-24 bg-white overflow-hidden" id="sobre-mi">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="order-2 lg:order-1 relative">
+              <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4 rounded-[2rem] -z-10" />
+              <img 
+                src="/images/about-me.jpeg" 
+                alt="Retrato profesional del terapeuta"
+                className="rounded-[2rem] w-full object-cover shadow-lg"
+              />
+            </div>
+            
+            <div className="order-1 lg:order-2">
+              <SectionHeading 
+                centered={false}
+                subtitle="Sobre Mí"
+                title="Hola, soy Pavlov Reyes"
+                description="Psicologo y Magister en sexologia"
+              />
+              <div className="space-y-6 mt-8 text-muted-foreground text-lg leading-relaxed">
+                <p>
+                  Mi misión es democratizar el placer y humanizar la educación sexual. Creo firmemente que la sexualidad es una parte vital de nuestra salud, no un tema tabú del que avergonzarse.
+                </p>
+                <p>
+                  He acompañado a cientos de personas a reconciliarse con su cuerpo y su deseo. Mi enfoque no es médico ni patologizante; es humano, empático y basado en la evidencia.
+                </p>
+                <p>
+                  En mi consulta no hay juicios, solo escucha activa y herramientas prácticas para que construyas la vida sexual que deseas y mereces.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* IDENTIFICATION SECTION */}
       <section className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -102,7 +140,7 @@ export default function Home() {
               "Parejas que se aman profundamente pero no logran tocarse.",
               "Hombres que sienten que su valor depende de una erección.",
               "Mujeres que nunca han sentido un orgasmo y creen que algo falta en ellas.",
-              "Personas que sienten dolor al intentar amar.",
+              "Quienes viven esperando que el encuentro termine pronto para volver a sentirse a salvo.",
               "Quienes viven la sexualidad desde el miedo y la culpa."
             ].map((text, i) => (
               <motion.div 
@@ -130,7 +168,7 @@ export default function Home() {
                 <div className="p-3 bg-white rounded-xl shadow-sm">
                   <Brain size={32} className="text-primary" />
                 </div>
-                <h3 className="text-3xl font-display font-bold">La Mente</h3>
+                <h3 className="text-3xl font-display font-bold">La Mente y el Cuerpo</h3>
               </div>
               <ul className="space-y-6">
                 {[
@@ -188,7 +226,7 @@ export default function Home() {
           
           <div className="mt-16 text-center">
             <p className="text-2xl font-display italic text-foreground/80">
-              "Tus experiencias no te definen, pero sí te informan."
+              "Tus miedos actuales son el eco de tu historia, no tu realidad presente."
             </p>
           </div>
         </div>
@@ -200,7 +238,7 @@ export default function Home() {
           <SectionHeading 
             subtitle="Mi Método"
             title="El camino hacia tu bienestar"
-            description="Un proceso estructurado pero flexible, adaptado a tus tiempos y necesidades."
+            description="Un acompañamiento con estructura y método, diseñado para avanzar al ritmo que tu proceso requiera."
           />
 
           <div className="mt-20 relative">
@@ -212,8 +250,8 @@ export default function Home() {
                 { step: "01", title: "Historia", desc: "Entender tu contexto vital y sexual." },
                 { step: "02", title: "Análisis", desc: "Identificar patrones y bloqueos." },
                 { step: "03", title: "Diagnóstico", desc: "Claridad sobre lo que está pasando." },
-                { step: "04", title: "Herramientas", desc: "Ejercicios prácticos para casa." },
-                { step: "05", title: "Acompañamiento", desc: "Seguimiento constante de tu evolución." },
+                { step: "04", title: "Terapia", desc: "Intervienen ejercicios y herramientas prácticas en cada sesión." },
+                { step: "05", title: "Acompañamiento", desc: "Acompañamiento continuo hasta el alta para asegurar la autonomía y el cierre efectivo del proceso." },
               ].map((item, i) => (
                 <motion.div 
                   key={i}
@@ -269,6 +307,7 @@ export default function Home() {
                 <li>• Falta de deseo</li>
                 <li>• Rutina y aburrimiento</li>
                 <li>• Apertura de la relación</li>
+                <li>• Situaciones de poliamor</li>
               </ul>
             </div>
 
@@ -283,42 +322,6 @@ export default function Home() {
                 <li>• Salida del closet</li>
                 <li>• Transiciones</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ABOUT ME */}
-      <section className="py-24 bg-white overflow-hidden" id="sobre-mi">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="order-2 lg:order-1 relative">
-              <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4 rounded-[2rem] -z-10" />
-              <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1288&auto=format&fit=crop" 
-                alt="Retrato profesional de la terapeuta"
-                className="rounded-[2rem] w-full object-cover shadow-lg"
-              />
-            </div>
-            
-            <div className="order-1 lg:order-2">
-              <SectionHeading 
-                centered={false}
-                subtitle="Sobre Mí"
-                title="Hola, soy Camila"
-                description="Psicóloga Clínica y Sexóloga especializada en terapia sistémica."
-              />
-              <div className="space-y-6 mt-8 text-muted-foreground text-lg leading-relaxed">
-                <p>
-                  Mi misión es democratizar el placer y humanizar la educación sexual. Creo firmemente que la sexualidad es una parte vital de nuestra salud, no un tema tabú del que avergonzarse.
-                </p>
-                <p>
-                  Me formé en Barcelona y he acompañado a cientos de personas a reconciliarse con su cuerpo y su deseo. Mi enfoque no es médico ni patologizante; es humano, empático y basado en la evidencia.
-                </p>
-                <p>
-                  En mi consulta no hay juicios, solo escucha activa y herramientas prácticas para que construyas la vida sexual que deseas y mereces.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -343,9 +346,12 @@ export default function Home() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-muted-foreground"><Clock size={18} /> 60 minutos de duración</li>
                 <li className="flex items-center gap-3 text-muted-foreground"><Calendar size={18} /> Online o Presencial (Quito)</li>
-                <li className="flex items-center gap-3 text-muted-foreground"><CreditCard size={18} /> Pagos vía Transferencia/Tarjeta</li>
+                <li className="flex items-center gap-3 text-muted-foreground"><CreditCard size={18} /> Pagos vía Transferencia/Deuna</li>
               </ul>
-              <button className="w-full bg-foreground text-background py-3 rounded-xl font-bold hover:bg-primary hover:text-white transition-colors">
+              <button 
+                onClick={() => window.open('https://calendly.com/solsoria-2208/30min', '_blank')}
+                className="w-full bg-foreground text-background py-3 rounded-xl font-bold hover:bg-primary hover:text-white transition-colors"
+              >
                 Agendar Cita
               </button>
             </div>
@@ -360,9 +366,12 @@ export default function Home() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-muted-foreground"><Clock size={18} /> 120 minutos de duración</li>
                 <li className="flex items-center gap-3 text-muted-foreground"><Calendar size={18} /> Online o Presencial (Quito)</li>
-                <li className="flex items-center gap-3 text-muted-foreground"><CreditCard size={18} /> Pagos vía Transferencia/Tarjeta</li>
+                <li className="flex items-center gap-3 text-muted-foreground"><CreditCard size={18} /> Pagos vía Transferencia/Deuna</li>
               </ul>
-              <button className="w-full bg-foreground text-background py-3 rounded-xl font-bold hover:bg-primary hover:text-white transition-colors">
+              <button 
+                onClick={() => window.open('https://calendly.com/solsoria-2208/30min', '_blank')}
+                className="w-full bg-foreground text-background py-3 rounded-xl font-bold hover:bg-primary hover:text-white transition-colors"
+              >
                 Agendar Cita
               </button>
             </div>

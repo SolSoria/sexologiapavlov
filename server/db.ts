@@ -1,14 +1,12 @@
-import { drizzle } from "drizzle-orm/node-postgres";
-import pg from "pg";
+import { drizzle } from "drizzle-orm/better-sqlite3";
+import Database from 'better-sqlite3';
 import * as schema from "@shared/schema";
 
-const { Pool } = pg;
+// Use file-based SQLite database
+const dbPath = process.env.DATABASE_URL || './data/dev.db';
+const sqlite = new Database(dbPath);
 
-if (!process.env.DATABASE_URL) {
-  throw new Error(
-    "DATABASE_URL must be set. Did you forget to provision a database?",
-  );
-}
+// Enable foreign key constraints
+sqlite.pragma('foreign_keys = ON');
 
-export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
-export const db = drizzle(pool, { schema });
+export const db = drizzle(sqlite, { schema });

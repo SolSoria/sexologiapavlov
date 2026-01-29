@@ -1,16 +1,11 @@
 import { db } from "./db";
-import {
-  posts,
-  type Post,
-  type InsertPost,
-  type CreatePostRequest
-} from "@shared/schema";
+import { posts, type Post, type InsertPost } from "@shared/schema";
 import { eq, desc } from "drizzle-orm";
 
 export interface IStorage {
   getPosts(): Promise<Post[]>;
   getPost(slug: string): Promise<Post | undefined>;
-  createPost(post: CreatePostRequest): Promise<Post>;
+  createPost(post: InsertPost): Promise<Post>;
 }
 
 export class DatabaseStorage implements IStorage {
@@ -19,13 +14,13 @@ export class DatabaseStorage implements IStorage {
   }
 
   async getPost(slug: string): Promise<Post | undefined> {
-    const [post] = await db.select().from(posts).where(eq(posts.slug, slug));
-    return post;
+    const result = await db.select().from(posts).where(eq(posts.slug, slug)).limit(1);
+    return result[0];
   }
 
-  async createPost(insertPost: CreatePostRequest): Promise<Post> {
-    const [post] = await db.insert(posts).values(insertPost).returning();
-    return post;
+  async createPost(post: InsertPost): Promise<Post> {
+    const result = await db.insert(posts).values(post).returning();
+    return result[0];
   }
 }
 
