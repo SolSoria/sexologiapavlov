@@ -4,10 +4,10 @@ import { ArrowRight, Check, MessageCircle, Heart, Brain, Users, Fingerprint, Cal
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { SectionHeading } from "@/components/SectionHeading";
-import { usePosts } from "@/hooks/use-posts";
+import { useStaticPosts } from "@/hooks/use-static-posts";
 
 export default function Home() {
-  const { data: latestPosts } = usePosts();
+  const { data: latestPosts } = useStaticPosts();
 
   return (
     <div className="min-h-screen bg-background">

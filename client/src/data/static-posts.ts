@@ -1,0 +1,32 @@
+export const staticPosts = [
+  {
+    id: 1,
+    title: "Entendiendo tu sexualidad: Una guía para comenzar",
+    slug: "entendiendo-tu-sexualidad",
+    excerpt: "Explora los fundamentos de la sexualidad humana y aprende a conectar con tu cuerpo de manera saludable.",
+    content: "La sexualidad es una parte fundamental del ser humano...",
+    author: "Dra. Sol Soria",
+    imageUrl: "/images/blog1.jpg",
+    publishedAt: new Date("2024-01-15"),
+  },
+  {
+    id: 2,
+    title: "Comunicación en pareja: Claves para una intimidad plena",
+    slug: "comunicacion-pareja",
+    excerpt: "Aprende a comunicar tus deseos y límites para fortalecer la intimidad con tu pareja.",
+    content: "La comunicación es la base de toda relación saludable...",
+    author: "Dra. Sol Soria",
+    imageUrl: "/images/blog2.jpg",
+    publishedAt: new Date("2024-01-10"),
+  },
+  {
+    id: 3,
+    title: "Superando la ansiedad sexual: Técnicas prácticas",
+    slug: "superando-ansiedad-sexual",
+    excerpt: "Descubre estrategias efectivas para manejar la ansiedad y disfrutar plenamente de tu sexualidad.",
+    content: "La ansiedad sexual es más común de lo que crees...",
+    author: "Dra. Sol Soria",
+    imageUrl: "/images/blog3.jpg",
+    publishedAt: new Date("2024-01-05"),
+  },
+];

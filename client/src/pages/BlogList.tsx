@@ -1,4 +1,4 @@
-import { usePosts } from "@/hooks/use-posts";
+import { useStaticPosts } from "@/hooks/use-static-posts";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Link } from "wouter";
@@ -7,7 +7,7 @@ import { format } from "date-fns";
 import { es } from "date-fns/locale";
 
 export default function BlogList() {
-  const { data: posts, isLoading } = usePosts();
+  const { data: posts, isLoading } = useStaticPosts();
 
   return (
     <div className="min-h-screen bg-background">

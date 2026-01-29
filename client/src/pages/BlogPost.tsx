@@ -1,5 +1,5 @@
 import { useRoute } from "wouter";
-import { usePost } from "@/hooks/use-posts";
+import { useStaticPost } from "@/hooks/use-static-posts";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Calendar, User, ArrowLeft } from "lucide-react";
@@ -10,7 +10,7 @@ import { es } from "date-fns/locale";
 export default function BlogPost() {
   const [, params] = useRoute("/blog/:slug");
   const slug = params?.slug || "";
-  const { data: post, isLoading, error } = usePost(slug);
+  const { data: post, isLoading, error } = useStaticPost(slug);
 
   if (isLoading) {
     return (
